@@ -1,0 +1,255 @@
+nav{
+	float:left;
+	
+	list-style:none;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+
+#nav li a{
+	display:block;
+	padding:5px;
+	color:#fff;
+	background:#666;
+	text-decoration:none;
+	
+	text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+}
+#nav li a:hover{
+	color:#fff;
+	background:#6b0c36;
+	background:rgba(107,12,54,0.75); /* Выглядит полупрозрачным */
+	text-decoration:underline;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+	margin:0;
+	padding:0;
+}
+li {
+    list-style-type: none;}
+
+#navv li a:hover{
+	color:#fff;
+	background:#F00;
+	background:rgba(255,00,00,0.75); /* Выглядит полупрозрачным */
+	text-decoration:underline;
+}
+
+navv{
+	float:left;
+	
+	list-style:none;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+#navv li a{
+	display:block;
+	padding:5px;
+	color:#fff;
+	background:#666;
+	text-decoration:none;
+	
+	text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+}
+
+#cal li {
+	text-align:center;
+	display:block;
+	padding:1px;
+	color:#fff;
+	background:#00C;
+	text-decoration:none;
+	font-size:11px;
+	width:21px;
+	height:15px;	
+	text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+}
+
+#calred li {
+	text-align:center;
+	display:block;
+	padding:1px;
+	color:#fff;
+	background:#93C;
+	text-decoration:none;
+	font-size:11px;
+	width:21px;
+	height:15px;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+}
+#calen li a{
+	text-align:center;
+	display:block;
+	padding:1px;
+	color:#fff;
+	background:#06F;
+	text-decoration:none;
+	font-size:12px;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+	width:21px;
+	height:15px;
+}
+#calen li a:hover{
+	color:#fff;
+	background:#09F;
+	font-size:13px;
+	text-decoration:underline;
+	width:21px;
+	height:15px;
+}
+calendar{
+	width:21px;
+	height:15px;
+	float:left;
+	font-size:13px;
+	list-style:none;
+	font-weight:bold;
+	margin-bottom:1px;
+}
+
+
+#calendar li a{
+	text-align:center;
+	display:block;
+	padding:1px;
+	color:#fff;
+	background:#666;
+	text-decoration:none;
+	font-size:13px;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+	width:21px;
+	height:15px;
+}
+#calendar li a:hover{
+	color:#fff;
+	font-size:13px;
+	background:#6b0c36;
+	background:rgba(107,12,54,0.75); /* Выглядит полупрозрачным */
+	text-decoration:underline;
+	width:21px;
+	height:15px;
+}
+calendarmon{
+	width:60px;
+	height:20px;
+	float:left;
+	font-size:13px;
+	list-style:none;
+	font-weight:bold;
+	margin-bottom:1px;
+}
+
+
+#calendarmon li a{
+	text-align:center;
+	display:block;
+	padding:1px;
+	color:#fff;
+	background:#666;
+	text-decoration:none;
+	font-size:13px;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+	width:60px;
+	height:20px;
+}
+#calendarmon li a:hover{
+	color:#fff;
+	font-size:13px;
+	background:#6b0c36;
+	background:rgba(107,12,54,0.75); /* Выглядит полупрозрачным */
+	text-decoration:underline;
+	width:60px;
+	height:20px;
+}
+#calenmon li a{
+	text-align:center;
+	display:block;
+	padding:1px;
+	color:#fff;
+	background:#06F;
+	text-decoration:none;
+	font-size:13px;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+	width:60px;
+	height:20px;
+}
+#calenmon li a:hover{
+	color:#fff;
+	background:#09F;
+	font-size:13px;
+	text-decoration:underline;
+	width:60px;
+	height:20px;
+}
+#ca li a{
+	text-align:center;
+	display:block;
+	padding:1px;
+	color:#fff;
+	background:#06F;
+	text-decoration:none;
+	font-size:13px;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+	width:200px;
+	height:15px;
+}
+#ca li a:hover{
+	color:#fff;
+	background:#09F;
+	font-size:13px;
+	text-decoration:underline;
+	width:200px;
+	height:15px;
+}
+#caa li a{
+	text-align:center;
+	display:block;
+	padding:1px;
+	color:#fff;
+	background:#06F;
+	text-decoration:none;
+	font-size:13px;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+	width:150px;
+	height:15px;
+}
+#caa li a:hover{
+	color:#fff;
+	background:#09F;
+	font-size:13px;
+	text-decoration:underline;
+	width:150px;
+	height:15px;
+}

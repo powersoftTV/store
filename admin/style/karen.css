@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.adminmenu{
+	width: 300px;
+	background: #E8E8E8;
+	height:1000px;
+	
+	-moz-border-radius: 5px; /* Mozilla */
+	border-radius: 5px; /* Chrome, Safari, Opera ... */
+	
+	
+	}
+h3{
+	
+	text-align: center;
+}
+li{
+	
+}
+div.adminpanel{
+	
+	width:auto;
+	background: #E8E8E8;
+	/*height:1000px;*/
+	overflow:auto;
+	
+	
+	
+	
+	
+	-moz-border-radius: 5px; /* Mozilla */
+	border-radius: 5px; /* Chrome, Safari, Opera ... */
+	}
+div.centre
+{
+	 /*top: 50%;
+	left: 50%;
+  width: 850px;
+   height:600px;
+   
+   position: absolute;
+	margin-top: -303px;
+	margin-left: -455px; */
+	margin:0 auto;
+
+
+}
+#items{
+float:left;
+padding:22px 0 0 0;
+width:770px;
+}
+.item{
+width:250px;
+height:250px;
+float:left;
+
+
+padding:12px 12px 12px 12px;
+display:table-column-group;
+}
+
+.item span{
+display:block;
+float:left;
+font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#E9410E;
+width:70px;
+padding:10px 0 0 20px;
+
+
+
+}
+.box-modal {
+	position: relative;
+	width: 500px;
+	padding: 16px;
+	background: #fff;
+	color: #3c3c3c;
+	font: 14px/18px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+	box-shadow: 0 0 0 6px rgba(153, 153, 153, .3);
+	border-radius: 6px;
+}
+.box-modal_close { position: absolute; right: 10px; top: 6px; font-size: 11px; line-height: 15px; color: #999; cursor: pointer; }
+.box-modal_close:hover { color: #666; }
+
+
+  a.mylink {
+   /* color:#333; /* Цвет обычной ссылки */ 
+   /* text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
+   a.mylink:visited {
+   /* color:#CCC; /* Цвет посещённой ссылки */
+   } 
+   a.mylink:hover {
+   /* color:#000; /* Цвет ссылки при наведении на нее курсора мыши */  
+   /* text-decoration: underline; /* Добавляем подчеркивание */
+   }
+#mainimage{
+	background-color:#CCC;
+}
+
+h2#mainimage{
+	color:#00F;
+text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+}

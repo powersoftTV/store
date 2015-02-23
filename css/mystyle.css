@@ -1,0 +1,319 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	/*vertical-align: baseline;*/
+	background: transparent;
+}
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;	
+	line-height:20px;
+	background:#70A6CC;	
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+}
+   li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+   ul {
+    margin-left:10; /* Отступ слева в браузере IE и Opera */
+    padding-left: 10; /* Отступ слева в браузере Firefox, Safari, Chrome */
+   }
+*{
+padding:0px;
+margin:0px;
+}
+html{
+width:100%;
+height:100%;
+}
+html > body{
+min-height:100%;
+height:auto;
+}
+
+#header_inside{
+width:1000px;
+margin:0 auto;
+position:relative;
+}
+.menu-container {
+	width: 999px; /* Ширина слоя в пикселах */
+    margin: 0 auto; /* Отступ слева и справа */
+	background:#3879D9;	
+	/*background:url(../images/Podlojka1.jpg);*/
+}
+.contents-container {
+	width: 999px; /* Ширина слоя в пикселах */
+    margin: 0 auto; /* Отступ слева и справа */
+	background:#FFF;
+	/*padding:20px 20px 13px 20px;
+	position:relative;*/
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+.clear:after {
+	content: ".";
+	height:0;
+	visibility:hidden;
+	display:block;
+	clear:both;
+}
+
+
+
+/*ABOUT-OUR-COMPANY*/
+.about-our-company {
+	width:722px;
+	float:left;
+	margin:0 0 0 4px;
+}
+.about-our-company h2
+{
+	font-size:18px;
+	padding-bottom:5px;
+	border-bottom:1px solid #c6c6c6;
+	margin:0 0 15px 0;
+}
+
+.about-our-company span
+{
+	font-size:14px;
+	display:block;
+	margin:0 0 25px 0;
+}
+.about-our-company img {
+	width:136px;
+	height:164px;
+	float:left;
+	margin:5px 15px 0 0;
+}
+/*RESIDENTIAL-PROPERTY-SEARCH*/
+.residential-property-search {
+	width:247px;
+	/*height:200px;*/ 
+	padding:10px;
+	float:left;
+	background:#F3F1E9;
+}
+.residential-property-search h2 {
+	font-size:18px;
+	padding-bottom:10px;
+	border-bottom:1px solid #a4bebd;
+	margin:0 0 10px 0;
+}
+.residential-property-search h2 img {
+	float:left;
+	margin:-5px 10px 0 0;
+}
+.residential-property-search h2 span {
+	display:block;
+	font-size:12px;
+	font-style:italic;
+}
+.residential-property-search ul li {
+	display:block;
+	margin:0 0 8px 0;
+}
+.residential-property-search ul li ul li {
+	display:block;
+	float:left;
+	
+	margin:0 0 0 0;
+}
+.residential-property-search ul li ul li.right {
+	display:block;
+	float:right;
+	width:155px;
+}
+.residential-property-search ul li label {
+	display:block;
+	margin:0 0 4px 0;
+	font-size:15px;
+}
+.residential-property-search ul li input,
+.residential-property-search ul li select {
+	border:1;
+	padding:5px;
+}
+
+.residential-property-search ul li ul li input {
+	width:78px;
+}
+.residential-property-search ul li ul li select {
+	width:154px;
+}
+.residential-property-search ul li select.searchArea {
+	width:202px;
+	display:block;
+	
+}
+#har{
+	width:1000px;
+	margin:0 auto;
+	background: #cf6700 url(../images/toolbar_xxx.png) repeat-x;
+	/*background:url(../images/Podlojka1.jpg);*/
+	font-family:Arial,Verdana,sans-serif;
+	display:block;
+	/*padding:5px;*/
+	padding-top:14px; 
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none; 
+	
+	height:30px;
+	font-size:35px;
+	text-align:center;	
+	text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+}
+#harfooter{
+	width:1000px;
+	margin:0 auto;
+	background: #cf6700 url(../images/toolbar_xxx.png) repeat-x;
+	/*background:url(../images/Podlojka1.jpg);*/
+	font-family:Arial,Verdana,sans-serif;
+	display:block;
+	/*padding:5px;
+	padding-top:14px; */
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none; 
+	
+	height:40px;
+	font-size:35px;
+	text-align:center;	
+	text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+}
+#harfooter img{
+	vertical-align:text-bottom;
+}
+#footer_inside{
+width:1000px;
+margin:0 auto;
+/*background-image:url(../images/Podlojka1.jpg);*/
+background:#3879D9;
+
+background-repeat:no-repeat;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+.footer_menu{
+list-style-type:none;
+padding:0px 0 0 42px;
+}
+.footer_menu li{
+display:inline;
+line-height:17px;
+float:left;
+}
+.footer_menu li a{
+color:#FFF;
+text-decoration:none;
+margin:0 6px;
+}
+.footer_menu li a:visited{text-decoration:none}
+.footer_menu li a:hover{text-decoration:underline}
+#footer_inside p{
+padding:10px 0 0 48px;
+}
+#footer_inside p a{
+color:#E9410E;
+text-decoration:underline
+}
+#footer_inside p a:visited{text-decoration:underline}
+#footer_inside p a:hover{text-decoration:none}
+#paginator {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#paginator h2 {
+font-size: 31.5px;
+}
+#paginator li{
+list-style-type: none; /* Убираем маркеры */
+}
+#paginator   ul {
+margin-left:10; /* Отступ слева в браузере IE и Opera */
+padding-left: 10; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+#paginator  a {
+color: #0088cc;
+text-decoration: none;
+}
+#paginator  a:hover , a:focus{
+color: #005580;
+text-decoration: underline;
+}
+#paginator a:hover, a:active {
+outline: 0;
+}
+#paginator li {
+line-height: 20px;
+}
+#paginator ul, ol {
+padding: 0;
+margin: 0 0 10px 13px;
+}
+.item{
+	border:1px #F1EFE4;
+	border-style: outset;
+margin:2px;
+width:227px;
+/*height:265px;*/
+float:left;
+background:#F3F1E9;
+
+
+/*background-image:url(../images/item_bg.gif);*/
+background-position:top left;
+background-repeat:no-repeat;
+padding:0 8px 15px 0;
+display:inline;
+}
+.item p{
+	padding:0 0 0 10px;
+	color:#0088cc;
+	/*  margin-left:0px;
+	  margin-top:10px*/
+}
+.item img{
+margin:0 0 0 9px;
+/*background:#FFE296;*/
+background:#FFf;
+padding:15px 8px 25px 8px;
+width:200px;
+height:150px
+}
+.item h1{
+
+/*
+float:left;
+width:70px;*/
+padding:0 0 0 10px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#E9410E;
+
+}
+
+.item:hover{
+	border:1px #F1EFE4;
+	border-style: outset;
+	background:#D8D1B8;
+}
